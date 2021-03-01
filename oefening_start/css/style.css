@@ -108,3 +108,24 @@ section.news .column {
   display: flex;
   align-items: flex-start;
 }
+
+.polaroids {
+  background-color: #ebebea;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.polaroid {
+  padding: 1rem;
+  background-color: white;
+  flex-basis: 29%;
+  text-align: center;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+.polaroid img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
