@@ -68,3 +68,43 @@ section.quote {
   padding: 1rem 20%;
   text-align: center;
 }
+
+section.slider {
+  background-color: #333;
+  height: 380px;
+  background-image: url("../img/slide.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.slide {
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.756);
+  color: white;
+  /* opacity: 0.5; */
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.slide p,
+.slide h3 {
+  opacity: 1 !important;
+}
+
+section.news {
+  display: flex;
+}
+
+section.news .column {
+  background-color: pink;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+  padding-left: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
